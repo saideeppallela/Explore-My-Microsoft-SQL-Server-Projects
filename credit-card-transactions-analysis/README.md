@@ -25,16 +25,16 @@ Instead of exploring data randomly, I approached this with business questions:
 
 ---
 
-## 📊 Key Analysis (Proof)
+## 📊 Representative Analysis Outputs
 
 ### 🔹 Revenue Concentration — Top Cities
-![Top Cities](./screenshots/q1_top_cities.png)
+![Top Cities](./q1_top_cities.png)
 
 ### 🔹 Customer Value Accumulation — Cumulative Spend
-![Cumulative Spend](./screenshots/q3_cumulative_spend.png)
+![Cumulative Spend](./q3_cumulative_spend.png)
 
 ### 🔹 Growth Signals — Month-over-Month Analysis
-![MoM Growth](./screenshots/q7_mom_growth.png)
+![MoM Growth](./q7_mom_growth.png)
 
 ---
 
