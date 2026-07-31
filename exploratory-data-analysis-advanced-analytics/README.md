@@ -203,29 +203,38 @@ Each SQL script builds upon the previous one, gradually progressing from data ex
 # 📂 Repository Structure
 
 ```text
-Business-Analytics-SQL-Server/
+exploratory-data-analysis-advanced-analytics/
 │
 ├── datasets/
-│
-├── sql/
-│   ├── 01_database_exploration.sql
-│   ├── 02_database_exploration.sql
-│   ├── 03_dimensions_exploration.sql
-│   ├── 04_date_range_exploration.sql
-│   ├── 05_measure_exploration.sql
-│   ├── 06_magnitude_analysis.sql
-│   ├── 07_ranking_analysis.sql
-│   ├── 08_change_over_time.sql
-│   ├── 09_cumulative_analysis.sql
-│   ├── 10_performance_analysis.sql
-│   ├── 11_data_segmentation.sql
-│   ├── 12_customer_report.sql
-│   └── 13_product_report.sql
-│
-├── documentation/
-│   └── SQL_EDA_Advanced_Analytics.pdf
+│   ├── README.md
+│   ├── dim_customers.csv
+│   ├── dim_products.csv
+│   └── fact_sales.csv
 │
 ├── outputs/
+│   ├── README.md
+│   ├── customer_analytics_report.png
+│   └── product_analytics_report.png
+│
+├── project_documentation/
+│   ├── README.md
+│   └── SQL_EDA_Advanced_Analytics.pdf
+│
+├── sql_scripts/
+│   ├── README.md
+│   ├── 01_eda_database_exploration.sql
+│   ├── 02_eda_dimensions_exploration.sql
+│   ├── 03_eda_date_exploration.sql
+│   ├── 04_eda_measure_exploration.sql
+│   ├── 05_eda_magnitude_analysis.sql
+│   ├── 06_eda_ranking_analysis.sql
+│   ├── 07_advanced_change_over_time_analysis.sql
+│   ├── 08_advanced_cumulative_analysis.sql
+│   ├── 09_advanced_performance_analysis.sql
+│   ├── 10_advanced_part_to_whole_analysis.sql
+│   ├── 11_advanced_data_segmentation_analysis.sql
+│   ├── 12_customer_report.sql
+│   └── 13_product_report.sql
 │
 └── README.md
 ```
@@ -361,7 +370,7 @@ customer_aggregation AS
 
 The complete SQL implementation is available in the following SQL script:
 
-➡️ **[12_advanced_customers_report.sql](12_advanced_customers_report.sql)**
+➡️ **[12_customer_report.sql](sql_scripts/12_customer_report.sql)**
 
 </details>
 
@@ -541,9 +550,9 @@ product_aggregations AS
 
 <br>
 
-The complete SQL script used to generate this report can be accessed below:
+The complete SQL implementation is available in the following SQL script:
 
-➡️ **[13_advanced_products_report.sql](13_advanced_products_report.sql)**
+➡️ **[13_product_report.sql](sql_scripts/13_product_report.sql)**
 
 </details>
 
@@ -652,7 +661,7 @@ It serves as a companion guide to this repository and provides additional contex
 
 📘 **Project Documentation**
 
-➡️ **[SQL_EDA_Advanced_Analytics.pdf](SQL_EDA_Advanced_Analytics.pdf)**
+➡️ **[SQL_EDA_Advanced_Analytics.pdf](project_documentation/SQL_EDA_Advanced_Analytics.pdf)**
 
 ---
 
